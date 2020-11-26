@@ -1,13 +1,13 @@
 <template>
     <div class="container">
-        <h1 class="page-title">Webpack Template</h1>
-        <p>A project template for web projects using Webpack, Babel, Vue, Sass and Bootstrap. The template supports both Javascript and Typescript as usable languages.</p>
+        <h1 class="page-title">Yggdrasil, Contet Carousels</h1>
+        <p>
+            Welcome to Yggdrasil, the content carousel system for the School of Computer Science.
+        </p>
     </div>
 </template>
 
 <script>
     export default {
-        components: {
-        }
     }
 </script>
