@@ -1,10 +1,10 @@
 version: "3.5"
 networks:
-    vue-app-dev-network:
-        name: vue-app-dev-network
+    yggdrasil-frontend-dev-network:
+        name: yggdrasil-frontend-dev-network
 services:
-    vue-app-dev:
-        container_name: vue-app-dev
+    yggdrasil-frontend-dev:
+        container_name: yggdrasil-frontend-dev
         image: node:latest
         volumes:
             - ./app:/app
@@ -13,4 +13,4 @@ services:
             - "8080:8080"
         command: "bash -c 'yarn && yarn run dev-docker'"
         networks:
-            - vue-app-dev-network
+            - yggdrasil-frontend-dev-network
