@@ -1,11 +1,11 @@
 {
-    "name": "wepack-vue-template",
+    "name": "yggdrasil-frontend",
     "version": "1.0.0",
-    "description": "A template for Webpack Vue projects",
+    "description": "Web App Frontend for the Yggdrasil API",
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/TReed1104/webpack-vue-template.git"
+        "url": "git+https://github.com/TReed1104/yggdrasil-frontend.git"
     },
     "author": {
         "name": "Tom Reed"
