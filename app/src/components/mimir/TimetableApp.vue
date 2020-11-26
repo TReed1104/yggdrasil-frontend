@@ -10,7 +10,7 @@
     import moment from 'moment'
     import Booking from '../../classes/Booking.js'
     import Timetable from '../../classes/Timetable.js'
-    import { setInterval, clearInterval } from 'timers';
+    import { setInterval, clearInterval } from 'timers-browserify';
     import TimetableGrid from './TimetableGrid.vue'
     export default {
         props:{

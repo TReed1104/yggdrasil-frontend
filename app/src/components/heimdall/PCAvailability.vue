@@ -22,7 +22,7 @@
     import axios from 'axios'
     import RoomMap from './RoomMap.vue'
     import Room from '../../classes/Room.js'
-    import { setInterval, clearInterval } from 'timers';
+    import { setInterval, clearInterval } from 'timers-browserify';
     export default {
         props:{
             roomID: {

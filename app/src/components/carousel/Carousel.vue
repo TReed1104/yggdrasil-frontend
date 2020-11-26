@@ -13,7 +13,7 @@
 <script>
     import axios from 'axios'
     import CarouselSlide from './Slide.vue'
-    import { setInterval, clearInterval } from 'timers';
+    import { setInterval, clearInterval } from 'timers-browserify';
     import moment from 'moment'
     export default {
         components: {
