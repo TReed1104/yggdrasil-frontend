@@ -1,6 +1,16 @@
-# Vue Project Template
+# Yggdrasil Frontend
+
+## What is Yggdrasil?
+Yggdrasil is a content carousel display system, used for displaying carousels of pictures, videos, twitter feeds, and elements of the other systems within the Asgard System Stack.
+
+This repository is for the frontend web app used to consume and interact with the Yggdrasil API.
+
+<br>
+
+---
+
 ## Overview
-Repository template for Vue.js projects
+The Yggdrasil frontend has been developed using our template for Webpack-Vue projects.
 
 ### Features
 - Webpack Compilation
@@ -18,7 +28,10 @@ Repository template for Vue.js projects
 - Docker (optional - for Docker deployment)
 - Bash (optional - for scripted Docker deployment)
 
+
 <br>
+
+---
 
 ## Yarn Run Commands
 Local use with Yarn package manager.
@@ -43,6 +56,8 @@ yarn run build
 ```
 
 <br>
+
+---
 
 ## NPM Run Commands
 Local use with Node package manager.
@@ -69,6 +84,8 @@ npm run build
 
 <br>
 
+---
+
 ## Docker Deployment
 Deploys to Docker via Docker-compose
 
@@ -81,7 +98,7 @@ sudo chmod +x deployment/dev.sh
 
 #### Manual Deployment
 ```bash
-docker-compose -p vue-app-dev -f docker-compose.dev.yml up -d --build --remove-orphans
+docker-compose -p yggdrasil-frontend-dev -f docker-compose.dev.yml up -d --build --remove-orphans
 ```
 ### Production
 #### Scripted Deployment
@@ -92,5 +109,5 @@ sudo chmod +x deployment/prod.sh
 
 #### Manual Deployment
 ```bash
-docker-compose -p vue-app -f docker-compose.yml up -d --build --remove-orphans
+docker-compose -p yggdrasil-frontend -f docker-compose.yml up -d --build --remove-orphans
 ```
